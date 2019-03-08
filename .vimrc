@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 set nocompatible
 set autoindent
 filetype plugin indent on
@@ -23,6 +25,9 @@ set lazyredraw          " redraw only when we need to.
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 set colorcolumn=80      " draw a line on the 80th column
+" show whitespaces:
+set list listchars=tab:»·,trail:·,nbsp:·
+
 
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
